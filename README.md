@@ -9,11 +9,13 @@ A Tkinter + ttkbootstrap GUI is used for chatting with the bot.
 
 HOW THE KNOWLEDGE SYSTEM WORKS
 
-The chatbot uses two data files:
-
-info.txt — raw etiquette information
+The chatbot uses the data file:
 
 cleanedInfo.txt — structured knowledge the bot uses internally
+
+This is created from the following file:
+
+info.txt — raw etiquette information
 
 The script dataFormater.py converts info.txt into cleanedInfo.txt, but only needs to run if cleanedInfo.txt is missing or outdated.
 
@@ -35,7 +37,7 @@ RUNNING THE CHATBOT
 
 Start Ms. Manners by running:
 
-python "CS328 - Final Project.py"
+python "chatbot_main.py"
 
 
 This opens the GUI and displays an initial greeting.
@@ -61,4 +63,5 @@ Automatic Learning
 When the user provides new etiquette information, the bot extracts keywords, predicts question types, and stores it in cleanedInfo.txt.
 
 Clean, Capitalized Output
+
 Automatically fixes capitalization and proper-noun formatting to keep answers polished.
