@@ -1,3 +1,5 @@
+Ms. Manners was a joint project with my classmate Joe Hakanson, Saint Mary's University of MN, 2025
+
 MS. MANNERS – AI TABLE MANNERS CHATBOT
 A Python-based etiquette assistant with learning, typo correction, and a graphical interface.
 
@@ -65,3 +67,4 @@ When the user provides new etiquette information, the bot extracts keywords, pre
 Clean, Capitalized Output
 
 Automatically fixes capitalization and proper-noun formatting to keep answers polished.
+
